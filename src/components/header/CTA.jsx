@@ -1,7 +1,7 @@
 import React from "react";
 import Resume from "../../assets/_Joel Bascombe Resume _.pdf";
 
-export const cta = () => {
+export const CTA = () => {
   return (
     <div classname="cta">
       <a href={Resume} download className="btn">
@@ -14,4 +14,4 @@ export const cta = () => {
   );
 };
 
-export default cta;
+export default CTA;
